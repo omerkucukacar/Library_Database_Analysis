@@ -1,37 +1,37 @@
-Kütüphane Veri Tabanı Analizi
+Library Database Analysis
 
-1) Hayata geçirilecek sistem neye hizmet edecek?
-Hayata geçirilecek veri tabanı, bisiklet üzerine kitapların yer aldığı bir dernek kütüphanesinin katalog veri tabanıdır.
+1) What will the system to be implemented serve?
+The database to be implemented is the catalog database of an association library with books on bicycles.
 
-2) Veri tabanı hangi ihtiyaçları karşılayacak?
-- Kitapların künye bilgileri sorgulanabilecektir.
-- - 
-- Yayınevi bilgileri sorgulanabilecektir.
-- Yazarlar bilgileri ve detaylı bağlantıları sorgulanabilecektir.
-- Kütüphanede o kitaptan kaç kopya olduğu sorgulanabilecektir.
+2) What needs will the database meet?
+- It will be possible to query the imprint information of the books.
+- -
+- Publisher information can be queried.
+- Authors information and detailed links can be queried.
+- It will be possible to question how many copies of that book are in the library.
 
-3) Veri tabanında hangi veriler depolanacak?
-- Kitap bilgileri
-- Yazar bilgileri
-- Yayınevi bilgileri
+3) What data will be stored in the database?
+- Book information
+- Author information
+- Publisher information
 
-4) Veri tabanında ne tür veriler depolanacak?
-- Kitap verileri
+4) What kind of data will be stored in the database?
+- Book data
 - - ISBN
-- - Eser Adı
-- - Yazar Adı
-- - Basım Yılı
-- - Yayınevi
-- - Dil
-- - Kopya Sayısı
+- - Title of Work
+- - Author Name
+- - Publication Year
+- - Publisher
+- - Language
+- - Number of Copies
 
-- Yazar verileri
-- - Yazar No (Otomatik artan)
-- - Yazar Adı
-- - Yazar Soyadı
-- - Yazar URL
+- Author data
+- - Author Number (Auto-incrementing)
+- - Author Name
+- - Author Surname
+- - Author URL
 
-- Yayınevi verileri
-- - Yayınevi No
-- - Yayınevi Adı
-- - Yayınevi URL
+- Publisher data
+- - Publisher No.
+- - Publisher Name
+- - Publisher URL
